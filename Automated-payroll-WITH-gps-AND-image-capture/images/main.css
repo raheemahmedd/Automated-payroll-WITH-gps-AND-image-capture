@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .owner{
+    background: rgba(0, 0, 0, 0.2) url(101535113-웹-사이트-및-인터넷은-격리된-배경-앞에-아이콘을-매달아-페이지-개념에-문의합니다-.jpg)  no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+  h2{
+      margin: 100px;
+      padding: 10px;
+    
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: #fff;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+.wrap{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    background: linear-gradient(to top ,transparent,rgba(0,0,0,0.6));
+}
+header .logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    float: left;
+}
+header .menu{
+    float: right;
+    margin-top: 5px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}

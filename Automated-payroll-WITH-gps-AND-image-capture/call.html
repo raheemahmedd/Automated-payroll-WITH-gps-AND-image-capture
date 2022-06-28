@@ -1,0 +1,12 @@
+<script
+    src="https://write.corbpie.com/wp-content/litespeed/localres/aHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS8=ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+    setInterval(function () {
+        $.ajax({
+            url: 'systeem.php',
+            success: function (data) {
+                console.log("Success");
+            }
+        });
+    }, 10000);
+</script>
